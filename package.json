@@ -3,6 +3,9 @@
   "version": "0.1.8",
   "description": "Open pi prompt editing in a live tmux split editor without freezing the pi UI.",
   "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.ts"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   ],
   "files": [
     "index.ts",
+    "layout.ts",
     "README.md",
     "LICENSE",
     "assets"
